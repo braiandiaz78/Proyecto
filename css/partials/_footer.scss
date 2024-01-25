@@ -1,0 +1,41 @@
+/*css footer*/
+.footer {
+    background-color: $colorSecundario;
+    padding: 50px 0; 
+    background-image: linear-gradient(to right,black,rgb(101, 101, 106));
+    background: linear-gradient(-45deg, #edebea, #6a6265, #141414);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 30vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+    .h41 {
+        color: $colorPrincipl;
+    }
+        
+    .h42 {
+            color: $colorPrincipl;
+        }
+    
+    .container {
+        display: flex;
+        justify-content: space-between; 
+        
+        .footer-column {
+            width: 60%; /* Ajusta el ancho según tus necesidades */
+        }
+    } 

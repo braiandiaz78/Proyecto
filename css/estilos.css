@@ -1,0 +1,183 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Rowdies";
+  src: url(./Letra/Rowdies-Bold.ttf);
+}
+.body {
+  background-color: rgba(41, 39, 39, 0.378);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Css del header*/
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.video {
+  width: 100%;
+}
+
+/* css de Catalogo*/
+.maincatalogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  color: #ffffff;
+  font-family: "Rowdies";
+  background-color: #0c0808;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.productos .lineap1,
+.productos .lineap2,
+.productos .lineap3 {
+  flex: 1;
+  min-width: 350px;
+}
+.productos .lineap1 .prod1,
+.productos .lineap1 .prod2,
+.productos .lineap1 .prod3,
+.productos .lineap1 .prod4,
+.productos .lineap1 .prod5,
+.productos .lineap1 .prod6,
+.productos .lineap2 .prod1,
+.productos .lineap2 .prod2,
+.productos .lineap2 .prod3,
+.productos .lineap2 .prod4,
+.productos .lineap2 .prod5,
+.productos .lineap2 .prod6,
+.productos .lineap3 .prod1,
+.productos .lineap3 .prod2,
+.productos .lineap3 .prod3,
+.productos .lineap3 .prod4,
+.productos .lineap3 .prod5,
+.productos .lineap3 .prod6 {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.productos .lineap1 .prod1 img,
+.productos .lineap1 .prod2 img,
+.productos .lineap1 .prod3 img,
+.productos .lineap1 .prod4 img,
+.productos .lineap1 .prod5 img,
+.productos .lineap1 .prod6 img,
+.productos .lineap2 .prod1 img,
+.productos .lineap2 .prod2 img,
+.productos .lineap2 .prod3 img,
+.productos .lineap2 .prod4 img,
+.productos .lineap2 .prod5 img,
+.productos .lineap2 .prod6 img,
+.productos .lineap3 .prod1 img,
+.productos .lineap3 .prod2 img,
+.productos .lineap3 .prod3 img,
+.productos .lineap3 .prod4 img,
+.productos .lineap3 .prod5 img,
+.productos .lineap3 .prod6 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/*Css del contacto*/
+.maincontacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  color: #ffffff;
+  font-family: "Rowdies";
+  background-color: #0c0808;
+}
+
+/*css de Politicas de cambio*/
+.mainpoldecambio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  color: #ffffff;
+  font-family: "Rowdies";
+  background-color: #0c0808;
+}
+
+/*css Politicas de envio*/
+.mainpoldeenvio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  color: #ffffff;
+  font-family: "Rowdies";
+  background-color: #0c0808;
+}
+
+/*css footer*/
+.footer {
+  background-color: #0c0808;
+  padding: 50px 0;
+  background-image: linear-gradient(to right, black, rgb(101, 101, 106));
+  background: linear-gradient(-45deg, #edebea, #6a6265, #141414);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 30vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.h41 {
+  color: #ffffff;
+}
+
+.h42 {
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container .footer-column {
+  width: 60%; /* Ajusta el ancho según tus necesidades */
+}
+
+@media (max-width: 880px) {
+  .footer {
+    padding: 1%;
+  }
+}
+@media (min-width: 600px) {
+  .prod1,
+  .prod2,
+  .prod3,
+  .prod4,
+  .prod5,
+  .prod6 {
+    width: 90%;
+    margin: 5%;
+  }
+}/*# sourceMappingURL=estilos.css.map */

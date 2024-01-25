@@ -1,0 +1,45 @@
+/* css de Catalogo*/
+.maincatalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    color: $colorPrincipl;
+    font-family: "Rowdies";
+    background-color: $colorSecundario;
+
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap; 
+    
+    .lineap1,
+    .lineap2,
+    .lineap3 {
+        flex: 1;
+        min-width: 350px; 
+        
+        .prod1, 
+        .prod2,
+        .prod3,
+        .prod4,
+        .prod5,
+        .prod6 {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px; 
+            
+
+            
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto; 
+
+                
+            }
+        }
+    }
+}
